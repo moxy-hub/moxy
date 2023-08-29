@@ -24,4 +24,4 @@ package-lock.json
 *.sln
 *.sw?
 db.json
-/source
+/source/_posts
