@@ -1,0 +1,141 @@
+- class_name: 关于我
+  subtitle: 拥有愉快生活，储存十吨热爱✨
+  avatarImg: https://bu.dusays.com/2023/08/30/64ef5874e8f0a.webp
+  name: 马晓龙
+  description: 是一名 后端工程师、打工人、博主
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 活到老，撸到老
+    list:
+      - desc: STUDY,学习新鲜代码中
+        color: "#357ef5"
+      - desc: WORK,后端开发工程师
+        color: "#357ef5"
+      - desc: EDU,软件工程专业
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/08/30/64ef588ad573e.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，张家口市
+    background: https://bu.dusays.com/2023/08/30/64ef4d52d7263.jpg
+    backgroundDark: https://bu.dusays.com/2023/08/30/64ef4d52d7263.jpg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 1996
+    selfInfoTips2: 武汉大学珞珈学院
+    selfInfoContent2: 软件工程
+    selfInfoTips3: 工作中
+    selfInfoContent3: 后端开发工程师👨‍🎓
+  personalities:
+    author_name: 冒险者
+    personality_type: ISFP-T
+    photo_url: https://bu.dusays.com/2023/08/30/64ef4d52d7263.jpg
+    personality_img: https://bu.dusays.com/2023/08/30/64ef549fdc5e7.png
+    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 拥有愉快生活，
+    maxim_bottom: 储存十吨热爱。
+  buff:
+    buff_tips: 特长
+    buff_top: 爱跳舞的吉他手 爱弹吉他的Java爱好者
+    buff_bottom: 音乐 吉他 MAX
+  game:
+    game_tips: 爱好游戏
+    game_title: 王者荣耀
+    game_uid: ""
+    game_bg: https://5b0988e595225.cdn.sohucs.com/images/20190729/abb6b4fc415340c79435b9be8f7d6c1c.jpeg
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 约定的梦幻岛
+        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
+      - name: 咒术回战
+        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
+      - name: 紫罗兰永恒花园
+        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
+      - name: 鬼灭之刃
+        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
+      - name: JOJO的奇妙冒险 黄金之风
+        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 海龟、摇滚、Blues
+    music_bg: https://bu.dusays.com/2023/08/30/64ef4f20dbe1f.jpeg
+    music_link: /music
+#  reward_list:
+#    - name: 海阔蓝
+#      amount: 8.8
+#      datatime: 2023-03-28
+#    - name: LK66
+#      amount: 66.6
+#      datatime: 2023-03-24
+#    - name: 张时貳
+#      amount: 6.6
+#      datatime: 2023-01-22
+#    - name: ZeroAf
+#      amount: 9.9
+#      datatime: 2022-12-14
+#    - name: LuckyWangXi
+#      amount: 6.6
+#      datatime: 2022-12-14
+#    - name: 刀中日月长
+#      amount: 10
+#      datatime: 2022-11-16
+#    - name: 鹿啵包
+#      amount: 10
+#      datatime: 2022-11-08
+#    - name: 疾速k
+#      amount: 50
+#      datatime: 2022-09-20
+#    - name: 伴舟先生大霖子
+#      amount: 4.03
+#      datatime: 2022-10-27
+#      suffix: 贝壳
+#    - name: Magica_0x0
+#      amount: 3.36
+#      datatime: 2022-10-07
+#      suffix: 贝壳
+#    - name: 名字就是要短像这样
+#      amount: 3.36
+#      datatime: 2022-08-25
+#      suffix: 贝壳
+#    - name: Leviathan520
+#      amount: 1.34
+#      datatime: 2022-08-23
+#      suffix: 贝壳
+#    - name: 托马斯
+#      amount: 10
+#      datatime: 2022-08-19
+#    - name: 哇是猫猫欸
+#      amount: 1.34
+#      datatime: 2022-08-19
+#      suffix: 贝壳

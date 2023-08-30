@@ -1,8 +1,8 @@
 menu:
-  # 文章:
-  #   隧道: /archives/ || anzhiyu-icon-box-archive
-  #   分类: /categories/ || anzhiyu-icon-shapes
-  #   标签: /tags/ || anzhiyu-icon-tags
+   文章:
+     隧道: /archives/ || anzhiyu-icon-box-archive
+     分类: /categories/ || anzhiyu-icon-shapes
+     标签: /tags/ || anzhiyu-icon-tags
 
   # 友链:
   #   友人帐: /link/ || anzhiyu-icon-link
@@ -15,10 +15,10 @@ menu:
   #   相册集: /album/ || anzhiyu-icon-images
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  # 关于:
-  #   关于本人: /about/ || anzhiyu-icon-paper-plane
-  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+   关于:
+     关于本人: /about/ || anzhiyu-icon-paper-plane
+     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -46,12 +46,14 @@ mourn:
 # Code Blocks (代码相关)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
+# 开启代码复制功能
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: 330 # unit: px
-code_word_wrap: false
+# 设置代码换行
+code_word_wrap: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複制的内容后面加上版权信息)
@@ -66,23 +68,19 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+   Github: https://github.com/moxy-hub || anzhiyu-icon-github
+#   Csnd: https://blog.csdn.net/MY9_19 || anzhiyu-icon-csdn
 
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  statusImg: "https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Cute-Emoji/016.png"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+     - 🔍 分享与热心帮助
+     - 🔨 设计开发一条龙
+     - 🧱 团队小组发动机
+     - 💢 壮汉人狠话不多
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -140,8 +138,8 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
-  effect: false
+  img: https://bu.dusays.com/2023/08/30/64ef5874e8f0a.webp
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -234,7 +232,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 张家口
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -380,9 +378,9 @@ waline:
     copyright: true
     # turnstileKey:
     locale:
-      admin: 安知鱼
-      sofa: 欢迎使用 安知鱼 主题！
-      placeholder: "生活明朗，万物可爱"
+      admin: moxy
+      sofa: 欢迎来到moxy小站
+      placeholder: "拥有愉快生活，储存十吨热爱"
     #   reactionTitle: 就现在，表明你的态度！
     #   reaction0: 0
     #   reaction1: 1
@@ -725,8 +723,8 @@ canvas_ribbon:
 
 # Fluttering Ribbon (动态彩带)
 canvas_fluttering_ribbon:
-  enable: false
-  mobile: false
+  enable: true
+  mobile: true
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -759,14 +757,14 @@ click_heart:
 
 # Mouse click effects: words (鼠标点击效果: 文字)
 ClickShowText:
-  enable: false
+  enable: true
   text:
-    # - I
-    # - LOVE
-    # - YOU
+     - I
+     - LOVE
+     - YOU
   fontSize: 15px
-  random: false
-  mobile: false
+  random: true
+  mobile: true
 
 # Default display mode (网站默认的显示模式)
 # light (default) / dark
@@ -831,7 +829,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: # 自定义头像
+  avatar: https://bu.dusays.com/2023/08/30/64ef5874e8f0a.webp
 
 # aside (侧边栏)
 # --------------------------------------
@@ -848,14 +846,15 @@ aside:
     category: true
   card_author:
     enable: true
-    description: # <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
+    # <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
+    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">我是<b style="color:#fff">moxy</b><br>一位<b style="color:#fff">普通</b>且<b style="color:#fff">有趣</b>的打工人</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">希望在这里会对你<b style="color:#fff">有些</b><b style="color:#fff">帮助</b>。</div>
     name_link: /
 
   card_announcement:
-    enable: false
+    enable: true
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
+    enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
     backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
   card_recent_post:
@@ -864,7 +863,7 @@ aside:
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
-    enable: false
+    enable: true
     limit: 8 # if set 0 will show all
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
@@ -892,15 +891,15 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 8/30/2023 00:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1074,16 +1073,16 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
+  title: 拥有愉快生活
+  subTitle: 储存十吨热爱。
+  siteText: moxy.world
   category:
-    - name: 前端
+    - name: JAVA
       path: /categories/前端开发/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
+    - name: Spring
       path: /categories/大学生涯/
       shadow: var(--anzhiyu-shadow-red)
       class: red
@@ -1099,8 +1098,8 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
+    tips: moxy
+    title: 欢迎光临
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
     link: https://docs.anheyu.com/
 

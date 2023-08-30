@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ""
-description: ""
-keywords:
-author: John Doe
-language: en
-timezone: ""
+title: Moxy
+subtitle: "拥有愉快生活，储存十吨热爱。"
+description: "我是Moxy，一位普通的打工人"
+keywords: Moxy,Blogs,Java,Spring,Work,Life
+author: Moxy
+language: zh-CN
+timezone:
+email : moxy.mxl@gmail.com
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://moxy.world
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

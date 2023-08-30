@@ -25,3 +25,4 @@ package-lock.json
 *.sw?
 db.json
 /source/_posts
+public
