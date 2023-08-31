@@ -26,3 +26,4 @@ package-lock.json
 db.json
 /source/_posts
 public
+.deploy_git

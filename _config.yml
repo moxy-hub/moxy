@@ -14,7 +14,8 @@ email : moxy.mxl@gmail.com
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://moxy.world
+url: https://moxy-hub.github.io/world
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,4 +104,6 @@ theme: anzhiyu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: "git"
+  repository: git@github.com:moxy-hub/world.git
+  branch: main
