@@ -134,7 +134,7 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: https://bu.dusays.com/2023/08/30/64ef5874e8f0a.webp
 
 # Avatar (头像)
 avatar:
@@ -215,7 +215,7 @@ index_post_content:
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+anchor: true
 
 # Post
 # --------------------------------------
@@ -244,12 +244,12 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
-      link:
-      text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: https://bu.dusays.com/2023/09/06/64f896dcb3e65.jpg
       link:
       text: 支付宝
+    - img: https://bu.dusays.com/2023/09/06/64f896d4c3c0f.jpg
+      link:
+      text: 微信
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -571,7 +571,7 @@ footer:
       # - link: https://image.anheyu.com
       #   text: 图床
        - link: https://beian.miit.gov.cn/
-         text: 还没备案哦
+         text: 备案中
     subTitle:
       enable: true
       # Typewriter Effect (打字效果)
@@ -723,8 +723,8 @@ canvas_ribbon:
 
 # Fluttering Ribbon (动态彩带)
 canvas_fluttering_ribbon:
-  enable: true
-  mobile: true
+  enable: false
+  mobile: false
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -759,11 +759,10 @@ click_heart:
 ClickShowText:
   enable: true
   text:
-     - I
-     - LOVE
-     - YOU
+     - hello
+     - world
   fontSize: 15px
-  random: true
+  random: false
   mobile: true
 
 # Default display mode (网站默认的显示模式)
@@ -799,7 +798,7 @@ hr_icon:
 
 # the subtitle on homepage (主页subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度参数)
@@ -817,7 +816,7 @@ subtitle:
   source: 1
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-#     - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
+     - 拥有愉快生活，储存十吨热爱。
 
 # Loading Animation (加载动画)
 preloader:
@@ -947,7 +946,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: 1
+  autoChangeMode: false
   start: # 8
   end: # 22
 
@@ -998,7 +997,7 @@ note:
   light_bg_offset: 0
 
 icons:
-  ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
+  ali_iconfont_js: //at.alicdn.com/t/c/font_4240673_wweo9mtor0h.js
   fontawesome: false #是否启用fontawesome6图标
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
@@ -1025,7 +1024,7 @@ aplayerInject:
 # 可选 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: true
-  position: top-center
+  position: top-right
   bg_light: "#3b70fc" # The background color of Toast Notification in light mode
   bg_dark: "#1f1f1f" # The background color of Toast Notification in dark mode
 
@@ -1075,23 +1074,23 @@ home_top:
   timemode: date #date/updated
   title: 拥有愉快生活
   subTitle: 储存十吨热爱。
-  siteText: moxy.world
+  siteText: moxy-hub.gitee.io
   category:
     - name: JAVA
-      path: /categories/前端开发/
+      path: /categories/Java/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
-      icon: anzhiyu-icon-dove
+      icon: icon-java
     - name: Spring
-      path: /categories/大学生涯/
+      path: /categories/Spring/
       shadow: var(--anzhiyu-shadow-red)
       class: red
-      icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活日常/
+      icon: icon-spring
+    - name: 日常
+      path: /essay
       shadow: var(--anzhiyu-shadow-green)
       class: green
-      icon: anzhiyu-icon-book
+      icon: icon-page
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: true
@@ -1099,7 +1098,7 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: moxy
-    title: 欢迎光临
+    title: github
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
     link: https://docs.anheyu.com/
 
@@ -1112,7 +1111,7 @@ friends_vue:
 
 # 黑色模式粒子效果canvas
 universe:
-  enable: true
+  enable: false
 
 # 页面卡片顶部气泡升起效果
 bubble:
@@ -1120,7 +1119,7 @@ bubble:
 
 #  控制台打印信息
 console:
-  enable: true
+  enable: false
 
 # 51a统计配置
 LA:
@@ -1157,14 +1156,14 @@ nav_music:
 
 # 评论匿名邮箱
 visitorMail:
-  enable: true
+  enable: false
   mail: visitor@anheyu.com
 
 # ptool 文章底部工具
 ptool:
   enable: true
   share_mobile: true
-  share_weibo: true
+#  share_weibo: true
   share_copyurl: true
   categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
@@ -1202,7 +1201,7 @@ greetingBox:
 # 文章顶部ai摘要
 post_head_ai_description:
   enable: true
-  gptName: AnZhiYu
+  gptName: moxy
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377

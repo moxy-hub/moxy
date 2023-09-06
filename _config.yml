@@ -13,9 +13,9 @@ timezone:
 email : moxy.mxl@gmail.com
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://moxy-hub.github.io/world
-root: /
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project' http://vuenotes.gitee.io/fanux/
+url: https://moxy-hub.gitee.io/
+#root: /moxy-hub
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,5 +105,5 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
-  repository: git@github.com:moxy-hub/world.git
-  branch: main
+  repository: git@gitee.com:moxy-hub/moxy-hub.git
+  branch: master
