@@ -25,5 +25,8 @@ package-lock.json
 *.sw?
 db.json
 /source/_posts
+/source/asset
 public
 .deploy_git
+
+/source/asset/Gradle.assets/
